@@ -24,6 +24,14 @@
 		8433A3AB1DFA9AA80042792F /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 8433A3A01DFA9AA80042792F /* NSObject+MJProperty.m */; };
 		8433A3AC1DFA9AA80042792F /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8433A3A21DFA9AA80042792F /* NSString+MJExtension.m */; };
 		8433A3B31DFA9B680042792F /* OpenModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8433A3B21DFA9B680042792F /* OpenModel.m */; };
+		84AEFC8E1DFAEC9400017D96 /* LVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AEFC8B1DFAEC9400017D96 /* LVTabBarController.m */; };
+		84AEFC8F1DFAEC9400017D96 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AEFC8D1DFAEC9400017D96 /* UIViewExt.m */; };
+		84AEFC921DFAED1600017D96 /* SecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AEFC911DFAED1600017D96 /* SecondController.m */; };
+		84AEFC941DFAEDDB00017D96 /* Address.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84AEFC931DFAEDDB00017D96 /* Address.plist */; };
+		84AEFC971DFAF08E00017D96 /* AddressJson.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84AEFC961DFAF08E00017D96 /* AddressJson.plist */; };
+		84AEFC9D1DFAFCBD00017D96 /* CityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AEFC9C1DFAFCBD00017D96 /* CityModel.m */; };
+		84AEFCA31DFAFCE000017D96 /* ProvinceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AEFCA21DFAFCE000017D96 /* ProvinceModel.m */; };
+		84AEFCA81DFB17AA00017D96 /* HeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AEFCA71DFB17AA00017D96 /* HeaderFooterView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +39,8 @@
 		8433A3771DFA9A100042792F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8433A3791DFA9A100042792F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8433A37A1DFA9A100042792F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8433A37C1DFA9A100042792F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8433A37D1DFA9A100042792F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8433A37C1DFA9A100042792F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../ViewController.h; sourceTree = "<group>"; };
+		8433A37D1DFA9A100042792F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../ViewController.m; sourceTree = "<group>"; };
 		8433A3801DFA9A100042792F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8433A3821DFA9A100042792F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8433A3851DFA9A100042792F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,6 +68,20 @@
 		8433A3A21DFA9AA80042792F /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
 		8433A3B11DFA9B680042792F /* OpenModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenModel.h; sourceTree = "<group>"; };
 		8433A3B21DFA9B680042792F /* OpenModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenModel.m; sourceTree = "<group>"; };
+		84AEFC8A1DFAEC9400017D96 /* LVTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVTabBarController.h; sourceTree = "<group>"; };
+		84AEFC8B1DFAEC9400017D96 /* LVTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVTabBarController.m; sourceTree = "<group>"; };
+		84AEFC8C1DFAEC9400017D96 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		84AEFC8D1DFAEC9400017D96 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		84AEFC901DFAED1600017D96 /* SecondController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondController.h; sourceTree = "<group>"; };
+		84AEFC911DFAED1600017D96 /* SecondController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondController.m; sourceTree = "<group>"; };
+		84AEFC931DFAEDDB00017D96 /* Address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Address.plist; sourceTree = "<group>"; };
+		84AEFC961DFAF08E00017D96 /* AddressJson.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AddressJson.plist; sourceTree = "<group>"; };
+		84AEFC9B1DFAFCBD00017D96 /* CityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityModel.h; sourceTree = "<group>"; };
+		84AEFC9C1DFAFCBD00017D96 /* CityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityModel.m; sourceTree = "<group>"; };
+		84AEFCA11DFAFCE000017D96 /* ProvinceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProvinceModel.h; sourceTree = "<group>"; };
+		84AEFCA21DFAFCE000017D96 /* ProvinceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProvinceModel.m; sourceTree = "<group>"; };
+		84AEFCA61DFB17AA00017D96 /* HeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderFooterView.h; sourceTree = "<group>"; };
+		84AEFCA71DFB17AA00017D96 /* HeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderFooterView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +118,10 @@
 				8433A38D1DFA9AA80042792F /* MJExtension */,
 				8433A3791DFA9A100042792F /* AppDelegate.h */,
 				8433A37A1DFA9A100042792F /* AppDelegate.m */,
-				8433A37C1DFA9A100042792F /* ViewController.h */,
-				8433A37D1DFA9A100042792F /* ViewController.m */,
+				84AEFC8A1DFAEC9400017D96 /* LVTabBarController.h */,
+				84AEFC8B1DFAEC9400017D96 /* LVTabBarController.m */,
+				84AEFC8C1DFAEC9400017D96 /* UIViewExt.h */,
+				84AEFC8D1DFAEC9400017D96 /* UIViewExt.m */,
 				8433A37F1DFA9A100042792F /* Main.storyboard */,
 				8433A3821DFA9A100042792F /* Assets.xcassets */,
 				8433A3841DFA9A100042792F /* LaunchScreen.storyboard */,
@@ -157,6 +181,10 @@
 		8433A3AE1DFA9B460042792F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8433A37C1DFA9A100042792F /* ViewController.h */,
+				8433A37D1DFA9A100042792F /* ViewController.m */,
+				84AEFC901DFAED1600017D96 /* SecondController.h */,
+				84AEFC911DFAED1600017D96 /* SecondController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -164,6 +192,12 @@
 		8433A3AF1DFA9B460042792F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				84AEFC931DFAEDDB00017D96 /* Address.plist */,
+				84AEFC961DFAF08E00017D96 /* AddressJson.plist */,
+				84AEFCA11DFAFCE000017D96 /* ProvinceModel.h */,
+				84AEFCA21DFAFCE000017D96 /* ProvinceModel.m */,
+				84AEFC9B1DFAFCBD00017D96 /* CityModel.h */,
+				84AEFC9C1DFAFCBD00017D96 /* CityModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -171,6 +205,8 @@
 		8433A3B01DFA9B460042792F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				84AEFCA61DFB17AA00017D96 /* HeaderFooterView.h */,
+				84AEFCA71DFB17AA00017D96 /* HeaderFooterView.m */,
 				8433A3B11DFA9B680042792F /* OpenModel.h */,
 				8433A3B21DFA9B680042792F /* OpenModel.m */,
 			);
@@ -236,7 +272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8433A3861DFA9A100042792F /* LaunchScreen.storyboard in Resources */,
+				84AEFC941DFAEDDB00017D96 /* Address.plist in Resources */,
 				8433A3831DFA9A100042792F /* Assets.xcassets in Resources */,
+				84AEFC971DFAF08E00017D96 /* AddressJson.plist in Resources */,
 				8433A3811DFA9A100042792F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +286,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AEFC8F1DFAEC9400017D96 /* UIViewExt.m in Sources */,
+				84AEFC8E1DFAEC9400017D96 /* LVTabBarController.m in Sources */,
 				8433A3A81DFA9AA80042792F /* NSObject+MJClass.m in Sources */,
 				8433A3A31DFA9AA80042792F /* MJExtensionConst.m in Sources */,
 				8433A3A71DFA9AA80042792F /* MJPropertyType.m in Sources */,
@@ -259,7 +299,11 @@
 				8433A3AB1DFA9AA80042792F /* NSObject+MJProperty.m in Sources */,
 				8433A37E1DFA9A100042792F /* ViewController.m in Sources */,
 				8433A37B1DFA9A100042792F /* AppDelegate.m in Sources */,
+				84AEFC9D1DFAFCBD00017D96 /* CityModel.m in Sources */,
 				8433A3B31DFA9B680042792F /* OpenModel.m in Sources */,
+				84AEFC921DFAED1600017D96 /* SecondController.m in Sources */,
+				84AEFCA81DFB17AA00017D96 /* HeaderFooterView.m in Sources */,
+				84AEFCA31DFAFCE000017D96 /* ProvinceModel.m in Sources */,
 				8433A3A41DFA9AA80042792F /* MJFoundation.m in Sources */,
 				8433A3781DFA9A100042792F /* main.m in Sources */,
 			);
@@ -418,6 +462,7 @@
 				8433A38C1DFA9A100042792F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
