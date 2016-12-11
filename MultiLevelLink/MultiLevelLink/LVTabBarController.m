@@ -9,6 +9,7 @@
 #import "LVTabBarController.h"
 #import "ViewController.h"
 #import "SecondController.h"
+#import "FriendController.h"
 
 @interface LVTabBarController ()
 
@@ -19,8 +20,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+     [self addOneChildVcClass:[FriendController class] title:@"联系人" image:nil selectedImage:nil];
+     [self addOneChildVcClass:[SecondController class] title:@"页面02" image:nil selectedImage:nil];
+ 
     [self addOneChildVcClass:[ViewController class] title:@"页面01" image:nil selectedImage:nil];
-    [self addOneChildVcClass:[SecondController class] title:@"页面02" image:nil selectedImage:nil];
+   
 }
 
 /**

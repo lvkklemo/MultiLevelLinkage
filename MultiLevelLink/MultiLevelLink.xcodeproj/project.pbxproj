@@ -24,6 +24,12 @@
 		8433A3AB1DFA9AA80042792F /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 8433A3A01DFA9AA80042792F /* NSObject+MJProperty.m */; };
 		8433A3AC1DFA9AA80042792F /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8433A3A21DFA9AA80042792F /* NSString+MJExtension.m */; };
 		8433A3B31DFA9B680042792F /* OpenModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8433A3B21DFA9B680042792F /* OpenModel.m */; };
+		848E5AB61DFD57B600365678 /* FriendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848E5AB51DFD57B600365678 /* FriendController.m */; };
+		848E5AB91DFD5A5E00365678 /* KKGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 848E5AB81DFD5A5E00365678 /* KKGroup.m */; };
+		848E5ABC1DFD5AB300365678 /* KKFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = 848E5ABB1DFD5AB300365678 /* KKFriend.m */; };
+		848E5ABF1DFD5B6C00365678 /* FriendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 848E5ABE1DFD5B6C00365678 /* FriendTableViewCell.m */; };
+		848E5AC21DFD5C1600365678 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 848E5AC11DFD5C1600365678 /* HeaderView.m */; };
+		848E5AC41DFD5EDC00365678 /* friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = 848E5AC31DFD5EDC00365678 /* friends.plist */; };
 		84AEFC8E1DFAEC9400017D96 /* LVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AEFC8B1DFAEC9400017D96 /* LVTabBarController.m */; };
 		84AEFC8F1DFAEC9400017D96 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AEFC8D1DFAEC9400017D96 /* UIViewExt.m */; };
 		84AEFC921DFAED1600017D96 /* SecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AEFC911DFAED1600017D96 /* SecondController.m */; };
@@ -68,6 +74,17 @@
 		8433A3A21DFA9AA80042792F /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
 		8433A3B11DFA9B680042792F /* OpenModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenModel.h; sourceTree = "<group>"; };
 		8433A3B21DFA9B680042792F /* OpenModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenModel.m; sourceTree = "<group>"; };
+		848E5AB41DFD57B600365678 /* FriendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendController.h; sourceTree = "<group>"; };
+		848E5AB51DFD57B600365678 /* FriendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendController.m; sourceTree = "<group>"; };
+		848E5AB71DFD5A5E00365678 /* KKGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKGroup.h; sourceTree = "<group>"; };
+		848E5AB81DFD5A5E00365678 /* KKGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKGroup.m; sourceTree = "<group>"; };
+		848E5ABA1DFD5AB300365678 /* KKFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKFriend.h; sourceTree = "<group>"; };
+		848E5ABB1DFD5AB300365678 /* KKFriend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKFriend.m; sourceTree = "<group>"; };
+		848E5ABD1DFD5B6C00365678 /* FriendTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendTableViewCell.h; sourceTree = "<group>"; };
+		848E5ABE1DFD5B6C00365678 /* FriendTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendTableViewCell.m; sourceTree = "<group>"; };
+		848E5AC01DFD5C1600365678 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		848E5AC11DFD5C1600365678 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		848E5AC31DFD5EDC00365678 /* friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = friends.plist; sourceTree = "<group>"; };
 		84AEFC8A1DFAEC9400017D96 /* LVTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVTabBarController.h; sourceTree = "<group>"; };
 		84AEFC8B1DFAEC9400017D96 /* LVTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVTabBarController.m; sourceTree = "<group>"; };
 		84AEFC8C1DFAEC9400017D96 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
@@ -185,6 +202,8 @@
 				8433A37D1DFA9A100042792F /* ViewController.m */,
 				84AEFC901DFAED1600017D96 /* SecondController.h */,
 				84AEFC911DFAED1600017D96 /* SecondController.m */,
+				848E5AB41DFD57B600365678 /* FriendController.h */,
+				848E5AB51DFD57B600365678 /* FriendController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -194,10 +213,15 @@
 			children = (
 				84AEFC931DFAEDDB00017D96 /* Address.plist */,
 				84AEFC961DFAF08E00017D96 /* AddressJson.plist */,
+				848E5AC31DFD5EDC00365678 /* friends.plist */,
 				84AEFCA11DFAFCE000017D96 /* ProvinceModel.h */,
 				84AEFCA21DFAFCE000017D96 /* ProvinceModel.m */,
 				84AEFC9B1DFAFCBD00017D96 /* CityModel.h */,
 				84AEFC9C1DFAFCBD00017D96 /* CityModel.m */,
+				848E5AB71DFD5A5E00365678 /* KKGroup.h */,
+				848E5AB81DFD5A5E00365678 /* KKGroup.m */,
+				848E5ABA1DFD5AB300365678 /* KKFriend.h */,
+				848E5ABB1DFD5AB300365678 /* KKFriend.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -207,8 +231,12 @@
 			children = (
 				84AEFCA61DFB17AA00017D96 /* HeaderFooterView.h */,
 				84AEFCA71DFB17AA00017D96 /* HeaderFooterView.m */,
+				848E5ABD1DFD5B6C00365678 /* FriendTableViewCell.h */,
+				848E5ABE1DFD5B6C00365678 /* FriendTableViewCell.m */,
 				8433A3B11DFA9B680042792F /* OpenModel.h */,
 				8433A3B21DFA9B680042792F /* OpenModel.m */,
+				848E5AC01DFD5C1600365678 /* HeaderView.h */,
+				848E5AC11DFD5C1600365678 /* HeaderView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -244,6 +272,7 @@
 				TargetAttributes = {
 					8433A3721DFA9A100042792F = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = L757434SAR;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -273,6 +302,7 @@
 			files = (
 				8433A3861DFA9A100042792F /* LaunchScreen.storyboard in Resources */,
 				84AEFC941DFAEDDB00017D96 /* Address.plist in Resources */,
+				848E5AC41DFD5EDC00365678 /* friends.plist in Resources */,
 				8433A3831DFA9A100042792F /* Assets.xcassets in Resources */,
 				84AEFC971DFAF08E00017D96 /* AddressJson.plist in Resources */,
 				8433A3811DFA9A100042792F /* Main.storyboard in Resources */,
@@ -287,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84AEFC8F1DFAEC9400017D96 /* UIViewExt.m in Sources */,
+				848E5AC21DFD5C1600365678 /* HeaderView.m in Sources */,
 				84AEFC8E1DFAEC9400017D96 /* LVTabBarController.m in Sources */,
 				8433A3A81DFA9AA80042792F /* NSObject+MJClass.m in Sources */,
 				8433A3A31DFA9AA80042792F /* MJExtensionConst.m in Sources */,
@@ -296,6 +327,7 @@
 				8433A3A91DFA9AA80042792F /* NSObject+MJCoding.m in Sources */,
 				8433A3AC1DFA9AA80042792F /* NSString+MJExtension.m in Sources */,
 				8433A3A51DFA9AA80042792F /* MJProperty.m in Sources */,
+				848E5AB61DFD57B600365678 /* FriendController.m in Sources */,
 				8433A3AB1DFA9AA80042792F /* NSObject+MJProperty.m in Sources */,
 				8433A37E1DFA9A100042792F /* ViewController.m in Sources */,
 				8433A37B1DFA9A100042792F /* AppDelegate.m in Sources */,
@@ -304,7 +336,10 @@
 				84AEFC921DFAED1600017D96 /* SecondController.m in Sources */,
 				84AEFCA81DFB17AA00017D96 /* HeaderFooterView.m in Sources */,
 				84AEFCA31DFAFCE000017D96 /* ProvinceModel.m in Sources */,
+				848E5ABF1DFD5B6C00365678 /* FriendTableViewCell.m in Sources */,
+				848E5AB91DFD5A5E00365678 /* KKGroup.m in Sources */,
 				8433A3A41DFA9AA80042792F /* MJFoundation.m in Sources */,
+				848E5ABC1DFD5AB300365678 /* KKFriend.m in Sources */,
 				8433A3781DFA9A100042792F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,9 +460,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L757434SAR;
 				INFOPLIST_FILE = MultiLevelLink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.TsingTao.MultiLevelLink;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KauriHealth.Kauri-Dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -436,9 +473,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L757434SAR;
 				INFOPLIST_FILE = MultiLevelLink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.TsingTao.MultiLevelLink;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KauriHealth.Kauri-Dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
