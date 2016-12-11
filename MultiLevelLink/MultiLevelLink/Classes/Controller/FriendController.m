@@ -145,11 +145,10 @@
     // 刷新整个UITableView
     //[self.tableView reloadData];
     
-    //    // 局部刷新(点击哪一组, 刷新哪一组)
+    //局部刷新(点击哪一组, 刷新哪一组)
     NSIndexSet *idxSet = [NSIndexSet indexSetWithIndex:headerView.tag];
     [self.tableView reloadSections:idxSet withRowAnimation:UITableViewRowAnimationAutomatic];
 }
-
 
 - (BOOL)prefersStatusBarHidden
 {

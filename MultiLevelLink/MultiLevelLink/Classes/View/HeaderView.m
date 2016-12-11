@@ -49,11 +49,10 @@
         // 为按钮注册一个点击事件
         [btnTitle addTarget:self action:@selector(btnTitleClick) forControlEvents:UIControlEventTouchUpInside];
         
-        
         [self.contentView addSubview:btnTitle];
         self.btnTitle = btnTitle;
         
-        // 2. 标签
+        // 2.标签
         UILabel *lblOnLine = [[UILabel alloc] init];
         // 设置label的背景色
         //lblOnLine.backgroundColor = [UIColor redColor];
@@ -72,7 +71,7 @@
 - (void)btnTitleClick
 {
     // 控制组的状态是打开还是闭合
-    self.group.visible = !self.group.isVisible;
+    self.group.visible = !self.group.visible;
     
     //    if (self.group.isVisible) {
     //        // 如果组是可见的, 那么就把小三角图片向下旋转90°，展开该组
